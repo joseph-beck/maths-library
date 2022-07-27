@@ -4,7 +4,7 @@ public class averages {
     public static double mean (double[] _data) {
         double total = 0;
 
-        for (int i = 0; i < _data.length; i++){
+        for (int i = 0; i < _data.length; i++) {
             total += _data[i];
         }
 
@@ -14,7 +14,7 @@ public class averages {
     public static int mean (int[] _data) {
         int total = 0;
 
-        for (int i = 0; i < _data.length; i++){
+        for (int i = 0; i < _data.length; i++) {
             total += _data[i];
         }
 
@@ -30,13 +30,18 @@ public class averages {
     }
 
     public static double range (double[] _data) {
-        double lower = 0;
+        double lower = _data[0];
         double upper = 0;
 
         for (int i = 0; i < _data.length; i++) {
-
+            if (_data[i] > upper) {
+                upper = _data[i];
+            }
+            if (lower > _data[i] ) {
+                lower = _data[i];
+            }
         }
 
-        return 0;
+        return upper - lower;
     }
 }
