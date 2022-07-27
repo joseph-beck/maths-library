@@ -18,6 +18,16 @@ public class operations {
         return 1;
     }
 
+    public static double sigma(double[] _data) {
+        double total = 0;
+
+        for (int i = 0; i < _data.length; i++) {
+            total += _data[i];
+        }
+
+        return total;
+    }
+
     public static int square (int _x) {
         return _x * _x;
     }
