@@ -6,16 +6,16 @@ public class operations {
         return _a + _b;
     }
 
-    public static int subtract () {
-        return 1;
+    public static int subtract (int _a, int _b) {
+        return _a - _b;
     }
 
-    public static int multiply () {
-        return 1;
+    public static int multiply (int _a, int _b) {
+        return _a * _b;
     }
 
-    public static int divide () {
-        return 1;
+    public static int divide (int _a, int _b) {
+        return _a / _b;
     }
 
     public static double sigma(double[] _data) {
@@ -37,6 +37,10 @@ public class operations {
     }
 
     public static int cube (int _x) {
+        return _x * _x * _x;
+    }
+
+    public static double cube (double _x) {
         return _x * _x * _x;
     }
 
