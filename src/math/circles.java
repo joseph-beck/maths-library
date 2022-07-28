@@ -1,5 +1,7 @@
 package math;
 
+import physics.constants;
+
 public class circles {
     public static double radiusToDiameter (double radius) {
         return 2 * radius;

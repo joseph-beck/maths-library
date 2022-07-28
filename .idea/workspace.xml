@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v1.02">
-      <change beforePath="$PROJECT_DIR$/src/sorters/insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorters/quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/physics/motion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/circles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/constants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
@@ -71,7 +74,8 @@
       <workItem from="1658944982304" duration="5779000" />
       <workItem from="1658956229101" duration="121000" />
       <workItem from="1658960264534" duration="5288000" />
-      <workItem from="1658998601792" duration="3447000" />
+      <workItem from="1658998601792" duration="3569000" />
+      <workItem from="1659022835864" duration="1489000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -136,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659001806582</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v1.02">
+      <created>1659002162950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659002162950</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

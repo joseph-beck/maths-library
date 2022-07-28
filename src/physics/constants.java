@@ -1,4 +1,4 @@
-package math;
+package physics;
 
 public class constants {
     private static final double pi = 3.14159265359;
@@ -11,6 +11,7 @@ public class constants {
     private static final double protonRestMass = 1.672621898 * Math.pow(10, -27);
     private static final double neutronRestMass = 1.674927471 * Math.pow(10, -27);
     private static final double electronCharge = 1.6021766208 * Math.pow(10, -19);
+    private static final double earthGravity = 9.81;
 
     public static double getPi (){
         return pi;
@@ -41,5 +42,8 @@ public class constants {
     }
     public static double getElectronCharge () {
         return electronCharge;
+    }
+    public static double getEarthGravity () {
+        return earthGravity;
     }
 }
