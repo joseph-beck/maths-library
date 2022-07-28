@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v1.02">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/physics/motion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/circles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/physics/motion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/motion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +39,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Code/Java/trin game engine",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,7 +73,7 @@
       <workItem from="1658956229101" duration="121000" />
       <workItem from="1658960264534" duration="5288000" />
       <workItem from="1658998601792" duration="3569000" />
-      <workItem from="1659022835864" duration="1489000" />
+      <workItem from="1659022835864" duration="3091000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -147,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659002162950</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="v1.02">
+      <created>1659024336355</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659024336355</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

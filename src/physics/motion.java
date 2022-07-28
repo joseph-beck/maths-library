@@ -40,4 +40,6 @@ public class motion {
 
         return operations.squareRoot(operations.square(_u) + (2 * _a * _s));
     }
+
+
 }
