@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v1.01">
-      <change afterPath="$PROJECT_DIR$/src/outputs/arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searches/binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searches/hashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searches/linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorters/quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/statistics/distributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statistics/distributions.java" afterDir="false" />
+    <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v1.02">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +69,7 @@
       <workItem from="1658944982304" duration="5779000" />
       <workItem from="1658956229101" duration="121000" />
       <workItem from="1658960264534" duration="5288000" />
-      <workItem from="1658998601792" duration="2844000" />
+      <workItem from="1658998601792" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -130,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658965674052</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="v1.02">
+      <created>1659001721186</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659001721186</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +149,8 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="v1.0" />
     <MESSAGE value="v1.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.01" />
+    <MESSAGE value="v1.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.02" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,3 +1,3 @@
 # maths-library
 
-maths
+*maths*
