@@ -5,7 +5,7 @@ public class arrays {
         System.out.println("Outputting data:\n");
 
         for (int i = 0; i < _data.length; i++) {
-            System.out.print(_data[i] + " ");
+            System.out.print(_data[i] + ", ");
         }
     }
 
@@ -13,7 +13,7 @@ public class arrays {
         System.out.println("Outputting data:\n");
 
         for (int i = 0; i < _data.length; i++) {
-            System.out.println(_data[i] + " ");
+            System.out.print(_data[i] + ", ");
         }
     }
 
@@ -21,7 +21,7 @@ public class arrays {
         System.out.println("Outputting data:\n");
 
         for (int i = 0; i < _data.length; i++) {
-            System.out.println(_data[i] + " ");
+            System.out.print(_data[i] + ", ");
         }
     }
 
@@ -30,9 +30,9 @@ public class arrays {
 
         for (int i = 0; i < _data.length; i++) {
             for (int j = 0; j < _data[i].length; j++) {
-                System.out.print(_data[i][j] + " ");
+                System.out.print(_data[i][j] + ", ");
             }
-            System.out.println("\n");
+            System.out.println();
         }
     }
 
@@ -41,9 +41,9 @@ public class arrays {
 
         for (int i = 0; i < _data.length; i++) {
             for (int j = 0; j < _data[i].length; j++) {
-                System.out.print(_data[i][j] + " ");
+                System.out.print(_data[i][j] + ", ");
             }
-            System.out.println("\n");
+            System.out.println();
         }
     }
 
@@ -54,7 +54,7 @@ public class arrays {
             for (int j = 0; j < _data[i].length; j++) {
                 System.out.print(_data[i][j] + " ");
             }
-            System.out.println("\n");
+            System.out.println();
         }
     }
 }
