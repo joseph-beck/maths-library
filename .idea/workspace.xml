@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v1.03">
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector3d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector3f.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3f.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <workItem from="1659733673147" duration="54000" />
       <workItem from="1659817852373" duration="1045000" />
       <workItem from="1660161664531" duration="3129000" />
-      <workItem from="1660213206141" duration="17670000" />
+      <workItem from="1660213206141" duration="19566000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660245823295</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="v1.03">
+      <created>1660256157460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660256157460</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
