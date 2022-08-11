@@ -35,6 +35,9 @@ public class operations {
     public static double square (double _x) {
         return _x * _x;
     }
+    public static float square (float _x) {
+        return _x * _x;
+    }
 
     public static int cube (int _x) {
         return _x * _x * _x;
@@ -46,5 +49,8 @@ public class operations {
 
     public static double squareRoot (double _x) {
         return Math.sqrt(_x);
+    }
+    public static float squareRoot (float _x) {
+        return (float) Math.sqrt(_x);
     }
 }
