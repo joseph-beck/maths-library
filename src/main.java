@@ -34,5 +34,6 @@ public class main {
 
         arrays.outputTwoD(matrix3.getMatrix3d());
 
+
     }
 }

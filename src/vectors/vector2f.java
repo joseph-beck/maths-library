@@ -63,4 +63,7 @@ public class vector2f {
     public float getY() {
         return y;
     }
+    public float[] getVector2f() {
+        return new float[]{x, y};
+    }
 }

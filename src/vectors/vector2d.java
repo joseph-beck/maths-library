@@ -63,4 +63,7 @@ public class vector2d {
     public double getY() {
         return y;
     }
+    public double[] getVector3d() {
+        return new double[]{x, y};
+    }
 }

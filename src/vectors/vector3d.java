@@ -74,4 +74,7 @@ public class vector3d {
     public double getZ() {
         return z;
     }
+    public double[] getVector3d() {
+        return new double[]{x, y, z};
+    }
 }
