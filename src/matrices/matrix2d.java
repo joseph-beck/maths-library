@@ -78,8 +78,11 @@ public class matrix2d {
     }
 
     //region GETTERS
-    public double[][] getMatrix2d () {
+    public double[][] getMatrixArray2d () {
         return matrix;
+    }
+    public matrix2d getMatrix2d () {
+        return this;
     }
     public double get11() {
         return matrix[0][0];

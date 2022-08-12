@@ -132,7 +132,10 @@ public class matrix3d {
     }
 
     //region GETTERS
-    public double[][] getMatrix3d () {
+    public matrix3d getMatrix3d () {
+        return this;
+    }
+    public double[][] getMatrixArray3d () {
         return matrix;
     }
     public double getMatrix11 () {

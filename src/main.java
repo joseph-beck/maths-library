@@ -21,19 +21,17 @@ public class main {
         matrix2d anotherMatrix = new matrix2d(7, 12, 5, 1);
 
         arrays.outputOneD(merge.mergeSort(data));
-        arrays.outputTwoD(matrix2.getMatrix2d());
+        arrays.outputTwoD(matrix2.getMatrixArray2d());
 
         matrix2 = matrix2.addMatrix2d(matrix2);
 
-        arrays.outputTwoD(matrix2.getMatrix2d());
+        arrays.outputTwoD(matrix2.getMatrixArray2d());
 
         matrix3d matrix3 = new matrix3d(1, 2, 3, 4, 5, 6, 7, 8, 9);
         matrix3d matrix33 = new matrix3d(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
         matrix3 = matrix3.multiplyMatrix3d(matrix33);
 
-        arrays.outputTwoD(matrix3.getMatrix3d());
-
-
+        arrays.outputTwoD(matrix3.getMatrixArray3d());
     }
 }

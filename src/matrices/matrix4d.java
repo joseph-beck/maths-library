@@ -25,6 +25,14 @@ public class matrix4d {
         matrix[3][3] = a44;
     }
 
+    public matrix4d(double a) {
+        for (int i = 0; i < 4; i++) {
+            for (int j= 0; j < 4; j++) {
+                matrix[i][j] = a;
+            }
+        }
+    }
+
     public matrix4d multiplyMatrix4d (matrix4d _matrix) {
         /*
             [a11][a12][a13][a14]   [b11][b12][b13][b14]   [][][][]
@@ -161,7 +169,10 @@ public class matrix4d {
     }
 
     //region GETTERS
-    public double[][] getMatrix4d () {
+    public matrix4d getMatrix4d () {
+        return this;
+    }
+    public double[][] getMatrixArray4d () {
         return matrix;
     }
 
