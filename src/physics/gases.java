@@ -34,4 +34,32 @@ public class gases {
 
         return (_moles * constants.getGasConstant() * _temperature) / _volume;
     }
+
+    public static float gasVolumeMolecules (float _pressure, float _temperature, float _molecules) {
+        // pV = NkT
+        // V = NkT / p
+
+        return (_molecules * (float)constants.getBoltzmannConstant() * _temperature) / _pressure;
+    }
+
+    public static double gasVolumeMoles (float _pressure, float _temperature, float _moles) {
+        // pV = nRT
+        // V = nRT / p
+
+        return (_moles * constants.getGasConstant() * _temperature) / _pressure;
+    }
+
+    public static float gasPressureMolecules (float _volume, float _temperature, float _molecules) {
+        // pV = NkT
+        // p = NkT / V
+
+        return (_molecules * (float)constants.getBoltzmannConstant() * _temperature) / _volume;
+    }
+
+    public static float gasPressureMoles (float _volume, float _temperature, float _moles) {
+        // pV = nRT
+        // p = nRT / V
+
+        return (_moles * (float)constants.getGasConstant() * _temperature) / _volume;
+    }
 }

@@ -46,6 +46,9 @@ public class operations {
     public static double cube (double _x) {
         return _x * _x * _x;
     }
+    public static float cube (float _x) {
+        return _x * _x * _x;
+    }
 
     public static double squareRoot (double _x) {
         return Math.sqrt(_x);

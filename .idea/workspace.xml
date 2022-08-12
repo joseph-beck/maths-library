@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v0.01">
+      <change afterPath="$PROJECT_DIR$/src/math/series.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector4d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vectors/vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector4f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/calculus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/calculus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/circles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/degrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/degrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/radians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/radians.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputs/vectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputs/vectors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1659817852373" duration="1045000" />
       <workItem from="1660161664531" duration="3129000" />
       <workItem from="1660213206141" duration="19582000" />
-      <workItem from="1660297817078" duration="9352000" />
+      <workItem from="1660297817078" duration="12321000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -219,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660328516441</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="v0.01">
+      <created>1660331105487</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660331105487</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
