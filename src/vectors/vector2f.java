@@ -57,13 +57,28 @@ public class vector2f {
         return this;
     }
 
+    //region GETTERS
+    public vector2f getVector2f () {
+        return this;
+    }
+    public float[] getVectorArray2f () {
+        return new float[]{x, y};
+    }
     public float getX() {
         return x;
     }
     public float getY() {
         return y;
     }
-    public float[] getVector2f() {
-        return new float[]{x, y};
+    //endregion
+
+    //region SETTERS
+    public void setX (float _x) {
+        x = _x;
     }
+
+    public void setY (float _y) {
+        y = _y;
+    }
+    //endregion
 }

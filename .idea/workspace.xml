@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v0.01">
-      <change afterPath="$PROJECT_DIR$/src/matrices/matrix2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrices/matrix3f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrices/matrix4f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector4d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vectors/vector4f.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix4d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector3f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector4d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector4f.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <workItem from="1659817852373" duration="1045000" />
       <workItem from="1660161664531" duration="3129000" />
       <workItem from="1660213206141" duration="19582000" />
-      <workItem from="1660297817078" duration="6750000" />
+      <workItem from="1660297817078" duration="9352000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -215,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660320152172</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="v0.01">
+      <created>1660328516441</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660328516441</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

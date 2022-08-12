@@ -26,44 +26,59 @@ public class vector2d {
     }
 
     public double resolveVector2d () {
-        return (operations.squareRoot(operations.square(x) + operations.square(y)));
+        return (operations.squareRoot(
+                operations.square(x) + operations.square(y)));
     }
 
-    public vector2d addVector3f (double _x, double _y) {
+    public vector2d addVector2f (double _x, double _y) {
         x += _x;
         y += _y;
 
         return this;
     }
 
-    public vector2d addVector3f (vector2d _vector) {
+    public vector2d addVector2f (vector2d _vector) {
         x += _vector.getX();
         y += _vector.getY();
 
         return this;
     }
 
-    public vector2d subtractVector3f (double _x, double _y) {
+    public vector2d subtractVector2f (double _x, double _y) {
         x -= _x;
         y -= _y;
 
         return this;
     }
 
-    public vector2d subtractVector3f (vector2d _vector) {
+    public vector2d subtractVector2f (vector2d _vector) {
         x -= _vector.getX();
         y -= _vector.getY();
 
         return this;
     }
 
+    //region GETTERS
+    public vector2d getVector2d() {
+        return this;
+    }
+    public double[] getVectorArray2d() {
+        return new double[]{x, y};
+    }
     public double getX () {
         return x;
     }
     public double getY() {
         return y;
     }
-    public double[] getVector3d() {
-        return new double[]{x, y};
+    //endregion
+
+    //region SETTERS
+    public void setX (double _x) {
+        x = _x;
     }
+    public void setY (double _y) {
+        y = _y;
+    }
+    //endregion
 }

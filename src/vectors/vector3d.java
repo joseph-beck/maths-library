@@ -65,16 +65,33 @@ public class vector3d {
         return this;
     }
 
+    //region GETTERS
+    public vector3d getVector3d () {
+        return this;
+    }
+    public double[] getVectorArray3d () {
+        return new double[]{x, y, z};
+    }
     public double getX () {
         return x;
     }
-    public double getY() {
+    public double getY () {
         return y;
     }
-    public double getZ() {
+    public double getZ () {
         return z;
     }
-    public double[] getVector3d() {
-        return new double[]{x, y, z};
+    //endregion
+
+    //region SETTERS
+    public void setX (double _x) {
+        x = _x;
     }
+    public void setY (double _y) {
+        y = _y;
+    }
+    public void setZ (double _z) {
+        z = _z;
+    }
+    //endregion
 }

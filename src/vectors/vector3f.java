@@ -67,6 +67,13 @@ public class vector3f {
         return this;
     }
 
+    //region GETTERS
+    public vector3f getVector3f () {
+        return this;
+    }
+    public float[] getVectorArray3f () {
+        return new float[]{x, y, z};
+    }
     public float getX() {
         return x;
     }
@@ -76,7 +83,17 @@ public class vector3f {
     public float getZ() {
         return z;
     }
-    public float[] getVector3f() {
-        return new float[]{x, y, z};
+    //endregion
+
+    //region SETTERS
+    public void setX(float _x) {
+        x = _x;
     }
+    public void setY(float _y) {
+        y = _y;
+    }
+    public void setZ(float _z) {
+        z = _z;
+    }
+    //endregion
 }
