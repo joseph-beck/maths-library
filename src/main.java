@@ -3,33 +3,18 @@ import statistics.*;
 import outputs.*;
 import sorters.*;
 import matrices.*;
+import vectors.*;
 
 public class main {
     public static void main(String[] args) {
-        int[] data = {7, 1, 2, 5, 3, 6, 4};
-        //System.out.println(distributions.standardDeviationPopulation(data));
-        //System.out.println(distributions.variancePopulation(data));
+        vector2f vector1 = new vector2f(1, 2);
 
-        //System.out.println(distributions.standardDeviationSample(data));
-        //System.out.println(distributions.varianceSample(data));
+        vector2f vector2 = new vector2f(3, 4);
 
-        matrix2d matrix2 = new matrix2d(1, 2, 7,  5);
-        matrix2d identityMatrix = new matrix2d(1, 0, 0,  1);
 
-        matrix2d anotherMatrix = new matrix2d(7, 12, 5, 1);
-
-        arrays.outputOneD(merge.mergeSort(data));
-        arrays.outputTwoD(matrix2.getMatrixArray2d());
-
-        matrix2 = matrix2.addMatrix2d(matrix2);
-
-        arrays.outputTwoD(matrix2.getMatrixArray2d());
-
-        matrix3d matrix3 = new matrix3d(1, 2, 3, 4, 5, 6, 7, 8, 9);
-        matrix3d matrix33 = new matrix3d(1, 2, 3, 4, 5, 6, 7, 8, 9);
-
-        matrix3 = matrix3.multiplyMatrix3d(matrix33);
-
-        arrays.outputTwoD(matrix3.getMatrixArray3d());
+        System.out.println("Resolved: " + vector2.resolveVector2f());
+        vector1 = vector1.addVector2f(vector2);
+        System.out.println("Vector: ");
+        vectors.outputVector2f(vector1);
     }
 }

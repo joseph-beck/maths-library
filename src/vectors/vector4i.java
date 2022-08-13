@@ -2,46 +2,51 @@ package vectors;
 
 import math.operations;
 
-public class vector4f {
-    private float x;
-    private float y;
-    private float z;
-    private float w;
+public class vector4i {
+    private int x;
+    private int y;
+    private int z;
+    private int w;
 
-    public vector4f (float _x, float _y, float _z, float _w) {
+    public vector4i (int _x, int _y, int _z, int _w) {
         x = _x;
         y = _y;
         z = _z;
         w = _w;
     }
 
-    public vector4f (float[] _xyzw) {
+    public vector4i (int[] _xyzw) {
         x = _xyzw[0];
         y = _xyzw[1];
         z = _xyzw[1];
         w = _xyzw[1];
     }
 
-    public vector4f (float _d) {
+    public vector4i (int _d) {
         x = _d;
         y = _d;
         z = _d;
         w = _d;
     }
 
-    public vector4f () {
+    public vector4i () {
         x = 0;
         y = 0;
         z = 0;
         w = 0;
     }
 
-    public float resolveVector4f () {
+    public int resolveWholeVector4i () {
+        return ((int)operations.squareRoot(
+                operations.square(x) + operations.square(y) + operations.square(z) + operations.square(z)));
+    }
+
+    public float resolveVector4i () {
         return (operations.squareRoot(
                 operations.square(x) + operations.square(y) + operations.square(z) + operations.square(z)));
     }
 
-    public vector4f addVector4f (float _x, float _y, float _z, float _w) {
+    public vector4i addVector4i (int _x, int _y, int _z, int _w) {
         x += _x;
         y += _y;
         z += _z;
@@ -50,7 +55,7 @@ public class vector4f {
         return this;
     }
 
-    public vector4f addVector4f (vector4f _vector) {
+    public vector4i addVector4i (vector4i _vector) {
         x += _vector.getX();
         y += _vector.getY();
         z += _vector.getZ();
@@ -59,7 +64,7 @@ public class vector4f {
         return this;
     }
 
-    public vector4f subtractVector4f (float _x, float _y, float _z, float _w) {
+    public vector4i subtractVector4i (int _x, int _y, int _z, int _w) {
         x -= _x;
         y -= _y;
         z -= _z;
@@ -68,7 +73,7 @@ public class vector4f {
         return this;
     }
 
-    public vector4f subtractVector4f (vector4f _vector) {
+    public vector4i subtractVector4i (vector4i _vector) {
         x -= _vector.getX();
         y -= _vector.getY();
         z -= _vector.getZ();
@@ -78,37 +83,37 @@ public class vector4f {
     }
 
     //region GETTERS
-    public vector4f getVector4f () {
+    public vector4i getVector4i () {
         return this;
     }
-    public float[] getVectorArray4f () {
-        return new float[]{x, y, z, w};
+    public int[] getVectorArray4i () {
+        return new int[]{x, y, z, w};
     }
-    public float getX() {
+    public int getX() {
         return x;
     }
-    public float getY() {
+    public int getY() {
         return y;
     }
-    public float getZ() {
+    public int getZ() {
         return z;
     }
-    public float getW() {
+    public int getW() {
         return w;
     }
     //endregion
 
     //region SETTERS
-    public void setX(float _x) {
+    public void setX(int _x) {
         x = _x;
     }
-    public void setY(float _y) {
+    public void setY(int _y) {
         y = _y;
     }
-    public void setZ(float _z) {
+    public void setZ(int _z) {
         z = _z;
     }
-    public void setW(float _w) {
+    public void setW(int _w) {
         w = _w;
     }
     //endregion

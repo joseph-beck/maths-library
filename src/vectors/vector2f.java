@@ -29,28 +29,28 @@ public class vector2f {
         return (operations.squareRoot(operations.square(x) + operations.square(y)));
     }
 
-    public vector2f addVector3f (float _x, float _y) {
+    public vector2f addVector2f (float _x, float _y) {
         x += _x;
         y += _y;
 
         return this;
     }
 
-    public vector2f addVector3f (vector2f _vector) {
+    public vector2f addVector2f (vector2f _vector) {
         x += _vector.getX();
         y += _vector.getY();
 
         return this;
     }
 
-    public vector2f subtractVector3f (float _x, float _y) {
+    public vector2f subtractVector2f (float _x, float _y) {
         x -= _x;
         y -= _y;
 
         return this;
     }
 
-    public vector2f subtractVector3f (vector2f _vector) {
+    public vector2f subtractVector2f (vector2f _vector) {
         x -= _vector.getX();
         y -= _vector.getY();
 

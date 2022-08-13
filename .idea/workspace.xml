@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v0.01">
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix4f.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrices/matrix2i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrices/matrix3i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrices/matrix4i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vectors/vector2i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vectors/vector3i.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vectors/vector4i.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outputs/vectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputs/vectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector2f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vectors/vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/vector4f.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Code/Java/wavefunctioncollapse - ac",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/Java/wavefunctioncollapse - ac&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
@@ -78,7 +88,11 @@
       <workItem from="1659817852373" duration="1045000" />
       <workItem from="1660161664531" duration="3129000" />
       <workItem from="1660213206141" duration="19582000" />
-      <workItem from="1660297817078" duration="13176000" />
+      <workItem from="1660297817078" duration="13802000" />
+      <workItem from="1660346535875" duration="1071000" />
+      <workItem from="1660406701592" duration="2363000" />
+      <workItem from="1660411557014" duration="590000" />
+      <workItem from="1660412341526" duration="3391000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -227,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660335615092</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="v0.01">
+      <created>1660336460692</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660336460692</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
