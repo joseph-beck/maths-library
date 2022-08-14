@@ -5,7 +5,7 @@ import sorters.*;
 import matrices.*;
 import vectors.*;
 
-public class main {
+public class main  {
     public static void main(String[] args) {
         vector2f vector1 = new vector2f(1, 2);
 
