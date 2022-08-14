@@ -186,6 +186,59 @@ public class matrix4d {
     //endregion
 
     //region SETTERS
-
+    public void setMatrix4d (matrix4d _matrix) {
+        this.matrix = _matrix.getMatrixArray4d();
+    }
+    public void setMatrix4d (double[][] _matrix) {
+        this.matrix = _matrix;
+    }
+    public void m00 (double _m00) {
+        matrix[0][0] = _m00;
+    }
+    public void m01 (double _m01) {
+        matrix[0][1]  = _m01;
+    }
+    public void m02 (double _m02) {
+        matrix[0][2] = _m02;
+    }
+    public void m03 (double _m03) {
+        matrix[0][3] = _m03;
+    }
+    public void m10 (double _m10) {
+        matrix[1][0] = _m10;
+    }
+    public void m11 (double _m11) {
+        matrix[1][1] = _m11;
+    }
+    public void m12 (double _m12) {
+        matrix[1][2] = _m12;
+    }
+    public void m13 (double _m13) {
+        matrix[1][3] = _m13;
+    }
+    public void m20 (double _m20) {
+        matrix[2][0] = _m20;
+    }
+    public void m21 (double _m21) {
+        matrix[2][1] = _m21;
+    }
+    public void m22 (double _m22) {
+        matrix[2][2] = _m22;
+    }
+    public void m23 (double _m23) {
+        matrix[2][3]  = _m23;
+    }
+    public void m30 (double _m30) {
+        matrix[4][0] = _m30;
+    }
+    public void m31 (double _m31) {
+        matrix[4][1] = _m31;
+    }
+    public void m32 (double _m32) {
+        matrix[4][2] = _m32;
+    }
+    public void m33 (double _m33) {
+        matrix[4][3] = _m33;
+    }
     //endregion
 }

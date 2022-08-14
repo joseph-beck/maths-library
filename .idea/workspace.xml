@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v0.01">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix2f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix2i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix3f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/matrices/matrix3i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix3i.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/matrices/matrix4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/matrix4d.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +85,7 @@
       <workItem from="1660411557014" duration="590000" />
       <workItem from="1660412341526" duration="4912000" />
       <workItem from="1660420724960" duration="399000" />
-      <workItem from="1660470430248" duration="7412000" />
+      <workItem from="1660470430248" duration="8300000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -262,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660417296823</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="v0.01">
+      <created>1660486129731</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660486129731</updated>
+    </task>
+    <task id="LOCAL-00026" summary="v0.01">
+      <created>1660486216228</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1660486216228</updated>
+    </task>
+    <task id="LOCAL-00027" summary="v0.01">
+      <created>1660486238261</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660486238261</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
