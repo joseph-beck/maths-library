@@ -7,14 +7,12 @@ import vectors.*;
 
 public class main  {
     public static void main(String[] args) {
-        vector2f vector1 = new vector2f(1, 2);
+        matrix4d matrix1 = new matrix4d(1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8);
+        matrix4d matrix2 = new matrix4d(1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8);
 
-        vector2f vector2 = new vector2f(3, 4);
+        matrix1 = matrix1.multiplyMatrix4d(matrix2);
+        double[][] matrix = matrix1.getMatrixArray4d();
 
-
-        System.out.println("Resolved: " + vector2.resolveVector2f());
-        vector1 = vector1.addVector2f(vector2);
-        System.out.println("Vector: ");
-        vectors.outputVector2f(vector1);
+        arrays.outputTwoD(matrix);
     }
 }
