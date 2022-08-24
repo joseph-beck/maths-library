@@ -13,5 +13,8 @@ public class Main {
         double[][] matrix = matrix1.getMatrixArray4d();
 
         Arrays.outputTwoD(matrix);
+
+        Matrix2d matrix2d = new Matrix2d(1, 2, 3, 4);
+        Matrices.outputMatrix2d(matrix2d);
     }
 }
