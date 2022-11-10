@@ -1,6 +1,6 @@
-import Outputs.*;
-import Matrices.*;
-import Window.*;
+import outputs.*;
+import matrices.*;
+import window.*;
 
 public class Main {
     public static void main(String[] args) {
