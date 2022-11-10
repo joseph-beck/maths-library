@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962abba1-635a-41f6-ab82-51568944b6ab" name="Changes" comment="v0.01">
-      <change afterPath="$PROJECT_DIR$/src/linked_list/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Calculus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Calculus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Circles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Degrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Degrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Radians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Radians.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maths/Series.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix2f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix2i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix3f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix3i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix3i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix4d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix4f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Matrices/Matrix4i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrices/Matrix4i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Outputs/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputs/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Outputs/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputs/Matrices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Outputs/Vectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outputs/Vectors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Physics/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Physics/Gases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/Gases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Physics/Motion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/Motion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Physics/Relativity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/Relativity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Physics/Thermal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/physics/Thermal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searches/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searches/Hashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Hashing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Searches/Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/searches/Linear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorters/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorters/Insertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/Insertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorters/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorters/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorters/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Statistics/Averages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statistics/Averages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Statistics/Distributions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/statistics/Distributions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector2f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector2f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector2i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector2i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector3d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector3d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector3f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector3f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector3i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector3i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector4d.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector4d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector4f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector4f.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vectors/Vector4i.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vectors/Vector4i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Window/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/window/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linked_list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linked_list/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +91,7 @@
       <workItem from="1664195001246" duration="66000" />
       <workItem from="1664230174582" duration="178000" />
       <workItem from="1664526317348" duration="35000" />
-      <workItem from="1668093664469" duration="696000" />
+      <workItem from="1668093664469" duration="1075000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1658956115339</created>
@@ -368,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661446207669</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="v0.01">
+      <created>1668094548231</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668094548231</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

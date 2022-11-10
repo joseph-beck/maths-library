@@ -8,6 +8,7 @@ public class Node {
     public Node(int value) {
 
         this.value = value;
+        this.next = null;
     }
 
     public Node(int value, Node next) {
@@ -18,7 +19,7 @@ public class Node {
 
     public void PrintNode() {
 
-        System.out.print(this.value);
+        System.out.print(this.value + " ");
 
         if (this.next != null) { this.next.PrintNode(); }
     }
