@@ -1,11 +1,11 @@
 package matrices;
 
-public class Matrix3i {
+public class aMatrix3i {
     private int[][] matrix = new int[3][3];
 
-    public Matrix3i(int _m00, int _m01, int _m02,
-                    int _m10, int _m11, int _m12,
-                    int _m20, int _m21, int _m22) {
+    public aMatrix3i(int _m00, int _m01, int _m02,
+                     int _m10, int _m11, int _m12,
+                     int _m20, int _m21, int _m22) {
         matrix[0][0] = _m00;
         matrix[0][1] = _m01;
         matrix[0][2] = _m02;
@@ -17,8 +17,8 @@ public class Matrix3i {
         matrix[2][2] = _m22;
     }
 
-    public Matrix3i multiplyMatrix3i (Matrix3i _matrix) {
-        return new Matrix3i((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()),
+    public aMatrix3i multiplyMatrix3i (aMatrix3i _matrix) {
+        return new aMatrix3i((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()),
                             (this.m00() * _matrix.m01()) + (this.m01() * _matrix.m11()) + (this.m02() * _matrix.m21()),
                             (this.m00() * _matrix.m02()) + (this.m01() * _matrix.m12()) + (this.m02() * _matrix.m22()),
                             (this.m10() * _matrix.m00()) + (this.m11() * _matrix.m10()) + (this.m12() * _matrix.m20()),
@@ -29,8 +29,8 @@ public class Matrix3i {
                             (this.m20() * _matrix.m02()) + (this.m21() * _matrix.m12()) + (this.m22() * _matrix.m22()));
     }
 
-    public Matrix3i addMatrix3i (Matrix3i _matrix) {
-        return new Matrix3i((this.m00() + _matrix.m00()),
+    public aMatrix3i addMatrix3i (aMatrix3i _matrix) {
+        return new aMatrix3i((this.m00() + _matrix.m00()),
                             (this.m01() + _matrix.m01()),
                             (this.m02() + _matrix.m02()),
                             (this.m10() + _matrix.m10()),
@@ -41,8 +41,8 @@ public class Matrix3i {
                             (this.m22() + _matrix.m22()));
     }
 
-    public Matrix3i subtractMatrix3i (Matrix3i _matrix) {
-        return new Matrix3i((this.m00() - _matrix.m00()),
+    public aMatrix3i subtractMatrix3i (aMatrix3i _matrix) {
+        return new aMatrix3i((this.m00() - _matrix.m00()),
                             (this.m01() - _matrix.m01()),
                             (this.m02() - _matrix.m02()),
                             (this.m10() - _matrix.m10()),
@@ -54,7 +54,7 @@ public class Matrix3i {
     }
 
     //region GETTERS
-    public Matrix3i getMatrix3i () {
+    public aMatrix3i getMatrix3i () {
         return this;
     }
     public int[][] getMatrixArray3i () {
@@ -90,7 +90,7 @@ public class Matrix3i {
     //endregion
 
     //region SETTERS
-    public void setMatrix3i (Matrix3i _matrix) {
+    public void setMatrix3i (aMatrix3i _matrix) {
         this.matrix = _matrix.getMatrixArray3i();
     }
     public void setMatrix3i (int[][] _matrix) {

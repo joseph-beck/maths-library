@@ -1,12 +1,12 @@
 package matrices;
 
-public class Matrix4f {
+public class aMatrix4f {
     private float[][] matrix = new float[4][4];
 
-    public Matrix4f(float _m00, float _m01, float _m02, float _m03,
-                    float _m10, float _m11, float _m12, float _m13,
-                    float _m20, float _m21, float _m22, float _m23,
-                    float _m30, float _m31, float _m32, float _m33) {
+    public aMatrix4f(float _m00, float _m01, float _m02, float _m03,
+                     float _m10, float _m11, float _m12, float _m13,
+                     float _m20, float _m21, float _m22, float _m23,
+                     float _m30, float _m31, float _m32, float _m33) {
         matrix[0][0] = _m00;
         matrix[0][1] = _m01;
         matrix[0][2] = _m02;
@@ -25,7 +25,7 @@ public class Matrix4f {
         matrix[3][3] = _m33;
     }
 
-    public Matrix4f(float _a) {
+    public aMatrix4f(float _a) {
         matrix[0][0] = _a;
         matrix[0][1] = _a;
         matrix[0][2] = _a;
@@ -44,7 +44,7 @@ public class Matrix4f {
         matrix[3][3] = _a;
     }
 
-    public Matrix4f() {
+    public aMatrix4f() {
         matrix[0][0] = 0;
         matrix[0][1] = 0;
         matrix[0][2] = 0;
@@ -63,7 +63,7 @@ public class Matrix4f {
         matrix[3][3] = 0;
     }
 
-    public Matrix4f multiplyMatrix4f (Matrix4f _matrix) {
+    public aMatrix4f multiplyMatrix4f (aMatrix4f _matrix) {
         /*
             [a00][a01][a02][a03]   [b00][b01][b02][b03]   [a00 * b00 + a01 * b10 + a02 * b20 + a03 * b30][a00 * b01 + a01 * b11 + a02 * b21 + a03 * b31][a00 * b02 + a01 * b12 + a02 * b22 + a03 * b32][a00 * b03 + a01 * b13 + a02 * b23 + a03 * b33]
             [a10][a11][a12][a13] * [b10][b11][b12][b13] = [a10 * b00 + a11 * b10 + a12 * b20 + a13 * b30][a10 * b01 + a11 * b11 + a12 * b21 + a13 * b31][a10 * b02 + a11 * b12 + a12 * b22 + a13 * b32][a10 * b03 + a11 * b13 + a12 * b23 + a13 * b33]
@@ -71,7 +71,7 @@ public class Matrix4f {
             [a30][a31][a32][a33]   [b30][b31][b32][b33]   [a30 * b00 + a31 * b10 + a32 * b20 + a33 * b30][a30 * b01 + a31 * b11 + a32 * b21 + a33 * b31][a30 * b02 + a31 * b12 + a32 * b22 + a33 * b32][a30 * b03 + a31 * b13 + a32 * b23 + a33 * b33]
          */
 
-        return new Matrix4f((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()) + (this.m03() * _matrix.m30()),
+        return new aMatrix4f((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()) + (this.m03() * _matrix.m30()),
                             (this.m00() * _matrix.m01()) + (this.m01() * _matrix.m11()) + (this.m02() * _matrix.m21()) + (this.m03() * _matrix.m31()),
                             (this.m00() * _matrix.m02()) + (this.m01() * _matrix.m12()) + (this.m02() * _matrix.m22()) + (this.m03() * _matrix.m32()),
                             (this.m00() * _matrix.m03()) + (this.m01() * _matrix.m13()) + (this.m02() * _matrix.m23()) + (this.m03() * _matrix.m33()),
@@ -89,8 +89,8 @@ public class Matrix4f {
                             (this.m30() * _matrix.m03()) + (this.m31() * _matrix.m13()) + (this.m32() * _matrix.m23()) + (this.m33() * _matrix.m33()));
     }
 
-    public Matrix4f addMatrix4f (Matrix4f _matrix) {
-        return new Matrix4f((this.m00() + _matrix.m00()),
+    public aMatrix4f addMatrix4f (aMatrix4f _matrix) {
+        return new aMatrix4f((this.m00() + _matrix.m00()),
                             (this.m01() + _matrix.m01()),
                             (this.m02() + _matrix.m02()),
                             (this.m03() + _matrix.m03()),
@@ -108,8 +108,8 @@ public class Matrix4f {
                             (this.m33() + _matrix.m33()));
     }
 
-    public Matrix4f subtractMatrix4f (Matrix4f _matrix) {
-        return new Matrix4f((this.m00() - _matrix.m00()),
+    public aMatrix4f subtractMatrix4f (aMatrix4f _matrix) {
+        return new aMatrix4f((this.m00() - _matrix.m00()),
                             (this.m01() - _matrix.m01()),
                             (this.m02() - _matrix.m02()),
                             (this.m03() - _matrix.m03()),
@@ -128,7 +128,7 @@ public class Matrix4f {
     }
 
     //region GETTERS
-    public Matrix4f getMatrix4f () {
+    public aMatrix4f getMatrix4f () {
         return this;
     }
     public float[][] getMatrixArray4f () {
@@ -185,7 +185,7 @@ public class Matrix4f {
     //endregion
 
     //region SETTERS
-    public void setMatrix4f (Matrix4f _matrix) {
+    public void setMatrix4f (aMatrix4f _matrix) {
         this.matrix = _matrix.getMatrixArray4f();
     }
     public void setMatrix4f (float[][] _matrix) {

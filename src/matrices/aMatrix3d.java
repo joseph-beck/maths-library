@@ -1,11 +1,11 @@
 package matrices;
 
-public class Matrix3f {
-    private float[][] matrix = new float[3][3];
+public class aMatrix3d {
+    private double[][] matrix = new double[3][3];
 
-    public Matrix3f(float _m00, float _m01, float _m02,
-                    float _m10, float _m11, float _m12,
-                    float _m20, float _m21, float _m22) {
+    public aMatrix3d(double _m00, double _m01, double _m02,
+                     double _m10, double _m11, double _m12,
+                     double _m20, double _m21, double _m22) {
         matrix[0][0] = _m00;
         matrix[0][1] = _m01;
         matrix[0][2] = _m02;
@@ -17,8 +17,32 @@ public class Matrix3f {
         matrix[2][2] = _m22;
     }
 
-    public Matrix3f multiplyMatrix3f (Matrix3f _matrix) {
-        return new Matrix3f((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()),
+    public aMatrix3d(double _a) {
+        matrix[0][0] = _a;
+        matrix[0][1] = _a;
+        matrix[0][2] = _a;
+        matrix[1][0] = _a;
+        matrix[1][1] = _a;
+        matrix[1][2] = _a;
+        matrix[2][0] = _a;
+        matrix[2][1] = _a;
+        matrix[2][2] = _a;
+    }
+
+    public aMatrix3d() {
+        matrix[0][0] = 0;
+        matrix[0][1] = 0;
+        matrix[0][2] = 0;
+        matrix[1][0] = 0;
+        matrix[1][1] = 0;
+        matrix[1][2] = 0;
+        matrix[2][0] = 0;
+        matrix[2][1] = 0;
+        matrix[2][2] = 0;
+    }
+
+    public aMatrix3d multiplyMatrix3d (aMatrix3d _matrix) {
+        return new aMatrix3d((this.m00() * _matrix.m00()) + (this.m01() * _matrix.m10()) + (this.m02() * _matrix.m20()),
                             (this.m00() * _matrix.m01()) + (this.m01() * _matrix.m11()) + (this.m02() * _matrix.m21()),
                             (this.m00() * _matrix.m02()) + (this.m01() * _matrix.m12()) + (this.m02() * _matrix.m22()),
                             (this.m10() * _matrix.m00()) + (this.m11() * _matrix.m10()) + (this.m12() * _matrix.m20()),
@@ -29,8 +53,8 @@ public class Matrix3f {
                             (this.m20() * _matrix.m02()) + (this.m21() * _matrix.m12()) + (this.m22() * _matrix.m22()));
     }
 
-    public Matrix3f addMatrix3f (Matrix3f _matrix) {
-        return new Matrix3f((this.m00() + _matrix.m00()),
+    public aMatrix3d addMatrix3d (aMatrix3d _matrix) {
+        return new aMatrix3d((this.m00() + _matrix.m00()),
                             (this.m01() + _matrix.m01()),
                             (this.m02() + _matrix.m02()),
                             (this.m10() + _matrix.m10()),
@@ -41,8 +65,8 @@ public class Matrix3f {
                             (this.m22() + _matrix.m22()));
     }
 
-    public Matrix3f subtractMatrix3f (Matrix3f _matrix) {
-        return new Matrix3f((this.m00() - _matrix.m00()),
+    public aMatrix3d subtractMatrix3d (aMatrix3d _matrix) {
+        return new aMatrix3d((this.m00() - _matrix.m00()),
                             (this.m01() - _matrix.m01()),
                             (this.m02() - _matrix.m02()),
                             (this.m10() - _matrix.m10()),
@@ -54,73 +78,73 @@ public class Matrix3f {
     }
 
     //region GETTERS
-    public Matrix3f getMatrix3f () {
+    public aMatrix3d getMatrix3d () {
         return this;
     }
-    public float[][] getMatrixArray3f () {
+    public double[][] getMatrixArray3d () {
         return matrix;
     }
-    public float m00 () {
+    public double m00 () {
         return matrix[0][0];
     }
-    public float m01 () {
+    public double m01 () {
         return matrix[0][1];
     }
-    public float m02 () {
+    public double m02 () {
         return matrix[0][2];
     }
-    public float m10 () {
+    public double m10 () {
         return matrix[1][0];
     }
-    public float m11 () {
+    public double m11 () {
         return matrix[1][1];
     }
-    public float m12 () {
+    public double m12 () {
         return matrix[1][2];
     }
-    public float m20 () {
+    public double m20 () {
         return matrix[2][0];
     }
-    public float m21 () {
+    public double m21 () {
         return matrix[2][1];
     }
-    public float m22 () {
+    public double m22 () {
         return matrix[2][2];
     }
     //endregion
 
     //region SETTERS
-    public void setMatrix3f (Matrix3f _matrix) {
-        this.matrix = _matrix.getMatrixArray3f();
+    public void setMatrix3d (aMatrix3d _matrix) {
+        this.matrix = _matrix.getMatrixArray3d();
     }
-    public void setMatrix3f (float[][] _matrix) {
+    public void setMatrix3d (double[][] _matrix) {
         this.matrix = _matrix;
     }
-    public void m00 (float _m00) {
+    public void m00 (double _m00) {
         this.matrix[0][0] = _m00;
     }
-    public void m01 (float _m01) {
+    public void m01 (double _m01) {
         this.matrix[0][1] = _m01;
     }
-    public void m02 (float _m02) {
+    public void m02 (double _m02) {
         this.matrix[0][2] = _m02;
     }
-    public void m10 (float _m10) {
+    public void m10 (double _m10) {
         this.matrix[1][0] = _m10;
     }
-    public void m11 (float _m11) {
+    public void m11 (double _m11) {
         this.matrix[1][1] = _m11;
     }
-    public void m12 (float _m12) {
+    public void m12 (double _m12) {
         this.matrix[1][2] = _m12;
     }
-    public void m20 (float _m20) {
+    public void m20 (double _m20) {
         this.matrix[2][0] = _m20;
     }
-    public void m21 (float _m21) {
+    public void m21 (double _m21) {
         this.matrix[2][1] = _m21;
     }
-    public void m22 (float _m22) {
+    public void m22 (double _m22) {
         this.matrix[2][2] = _m22;
     }
     //endregion

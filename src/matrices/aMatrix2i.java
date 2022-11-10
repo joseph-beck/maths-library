@@ -1,46 +1,46 @@
 package matrices;
 
-public class Matrix2i {
+public class aMatrix2i {
     private int[][] matrix = new int[2][2];
 
-    public Matrix2i(int _m00, int _m01,
-                    int _m10, int _m11) {
+    public aMatrix2i(int _m00, int _m01,
+                     int _m10, int _m11) {
         matrix[0][0] = _m00;
         matrix[0][1] = _m01;
         matrix[1][0] = _m10;
         matrix[1][1] = _m11;
     }
 
-    public Matrix2i(int _a) {
+    public aMatrix2i(int _a) {
         matrix[0][0] = _a;
         matrix[0][1] = _a;
         matrix[1][0] = _a;
         matrix[1][1] = _a;
     }
 
-    public Matrix2i() {
+    public aMatrix2i() {
         matrix[0][0] = 0;
         matrix[0][1] = 0;
         matrix[1][0] = 0;
         matrix[1][1] = 0;
     }
 
-    public Matrix2i multiplyMatrix2i (Matrix2i matrixR) {
-        return new Matrix2i(    (this.m00() * matrixR.m00()) + (this.m01() * matrixR.m10()),
+    public aMatrix2i multiplyMatrix2i (aMatrix2i matrixR) {
+        return new aMatrix2i(    (this.m00() * matrixR.m00()) + (this.m01() * matrixR.m10()),
                                 (this.m00() * matrixR.m01()) + (this.m01() * matrixR.m11()),
                                 (this.m10() * matrixR.m00()) + (this.m11() * matrixR.m10()),
                                 (this.m10() * matrixR.m01()) + (this.m11() * matrixR.m11()));
     }
 
-    public Matrix2i addMatrix2i (Matrix2i matrixR) {
-        return new Matrix2i(    (this.m00() + matrixR.m00()),
+    public aMatrix2i addMatrix2i (aMatrix2i matrixR) {
+        return new aMatrix2i(    (this.m00() + matrixR.m00()),
                                 (this.m01() + matrixR.m01()),
                                 (this.m10() + matrixR.m10()),
                                 (this.m11() + matrixR.m11()));
     }
 
-    public Matrix2i substractMatrix2i (Matrix2i matrixR) {
-        return new Matrix2i(    (this.m00() - matrixR.m00()),
+    public aMatrix2i substractMatrix2i (aMatrix2i matrixR) {
+        return new aMatrix2i(    (this.m00() - matrixR.m00()),
                                 (this.m01() - matrixR.m01()),
                                 (this.m10() - matrixR.m10()),
                                 (this.m11() - matrixR.m11()));
@@ -50,7 +50,7 @@ public class Matrix2i {
     public int[][] getMatrixArray2i () {
         return matrix;
     }
-    public Matrix2i getMatrix2i () {
+    public aMatrix2i getMatrix2i () {
         return this;
     }
     public int m00() {
@@ -71,7 +71,7 @@ public class Matrix2i {
     //endregion
 
     //region SETTERS
-    public void setMatrix2d (Matrix2i _matrix) {
+    public void setMatrix2d (aMatrix2i _matrix) {
         this.matrix = _matrix.getMatrixArray2i();
     }
     public void setMatrix2d (int[][] _matrix) {
